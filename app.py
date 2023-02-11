@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 def generate_cover_letter(model, prompt):
