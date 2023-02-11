@@ -1,13 +1,7 @@
-import os
 import streamlit as st
 import openai
 
-openai.api_key = os.environ.get("OPENAI_API_KEY")
-
-if openai.api_key:
-    print("OpenAI API Key:", openai.api_key)
-else:
-    print("OpenAI API Key not found.")
+openai.api_key = "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"
 
 
 def generate_cover_letter(model, prompt):
